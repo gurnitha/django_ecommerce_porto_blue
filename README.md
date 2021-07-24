@@ -84,9 +84,14 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   config/settings.py
 
 
+### --------------------------
+### 4. ACTIVATE DJANGO ADMIN
+### --------------------------
 
 
-
+#### 4.1 Run migrations
+ 
+        modified:   README.md
 
 
 
