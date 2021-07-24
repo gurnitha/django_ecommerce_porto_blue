@@ -74,7 +74,14 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         hp=#
 
 
+#### 3.2 Connect database with the project using django_environ
 
+        (venv3932) λ python manage.py check
+        System check identified no issues (0 silenced).
+
+        modified:   .gitignore
+        modified:   README.md
+        modified:   config/settings.py
 
 
 
