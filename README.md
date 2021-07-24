@@ -116,6 +116,14 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         new file:   templates/main/index.html
 
 
+#### 5.3 Creating home views and urls
+
+        modified:   README.md
+        new file:   apps/main/urls.py
+        modified:   apps/main/views.py
+        modified:   config/urls.py
+
+
 
 
 
