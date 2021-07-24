@@ -62,6 +62,16 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   config/settings.py 
 
 
+### -------------
+### 3. DATABASE
+### -------------
+
+
+#### 3.1 Create database using PostgreSQL
+
+        hp=# CREATE DATABASE django_ecommerce_porto_blue;
+        CREATE DATABASE
+        hp=#
 
 
 
