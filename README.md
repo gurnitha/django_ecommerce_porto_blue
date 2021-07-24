@@ -55,6 +55,12 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         new file:   apps/main/views.py
 
 
+#### 2.3 Register the main app to the project settings.py
+
+        modified:   README.md
+        modified:   apps/main/apps.py
+        modified:   config/settings.py 
+
 
 
 
