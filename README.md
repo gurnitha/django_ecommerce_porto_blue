@@ -110,6 +110,10 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   config/settings.py
 
 
+#### 5.2 Adding home template
+
+        modified:   README.md
+        new file:   templates/main/index.html
 
 
 
