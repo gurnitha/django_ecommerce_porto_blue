@@ -159,6 +159,18 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         new file:   templates/shared/topbar-promo.html
 
 
+#### 5.6 Create product app
+
+        modified:   README.md
+        new file:   apps/product/__init__.py
+        new file:   apps/product/admin.py
+        new file:   apps/product/apps.py
+        new file:   apps/product/migrations/__init__.py
+        new file:   apps/product/models.py
+        new file:   apps/product/tests.py
+        new file:   apps/product/views.py
+        modified:   config/settings.py
+
 
 
 
