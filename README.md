@@ -90,11 +90,13 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
 
 
 #### 4.1 Run migrations
- 
+
         modified:   README.md
 
 
+#### 4.2 Create superuser
 
+        modified:   README.md
 
 
 
