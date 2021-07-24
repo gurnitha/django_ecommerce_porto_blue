@@ -208,7 +208,17 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
 
 
 
+### -----------------------------------------------
+### 6. WORKING ON MODELS, VIEWS TEMPLATE AND URLS
+### -----------------------------------------------
 
+
+#### 6.1 Create Category and Product models with ManyToOne Rel
+
+        modified:   README.md
+        modified:   apps/product/admin.py
+        new file:   apps/product/migrations/0001_initial.py
+        modified:   apps/product/models.py
 
 
 
