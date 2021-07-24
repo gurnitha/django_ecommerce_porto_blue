@@ -133,6 +133,30 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   templates/main/index.html 
 
 
+#### 5.5 Adding home page template using template inheritance
+
+        modified:   README.md
+        new file:   templates/base.html
+        new file:   templates/main/inc/banner-brands.html
+        new file:   templates/main/inc/banner-customer-services.html
+        new file:   templates/main/inc/banner-customer-support.html
+        new file:   templates/main/inc/banner-promo.html
+        new file:   templates/main/inc/product-widgets.html
+        new file:   templates/main/inc/side-menu.html
+        new file:   templates/main/inc/side-newsletter.html
+        new file:   templates/main/inc/side-slider-blog-post.html
+        new file:   templates/main/inc/side-slider-comments.html
+        new file:   templates/main/inc/side-slider-sale.html
+        new file:   templates/main/inc/slider-featured-products.html
+        new file:   templates/main/inc/slider-home.html
+        modified:   templates/main/index.html
+        new file:   templates/shared/footer.html
+        new file:   templates/shared/head.html
+        new file:   templates/shared/header-top.html
+        new file:   templates/shared/header.html
+        new file:   templates/shared/menu-mobile.html
+        new file:   templates/shared/newsletter-popup.html
+        new file:   templates/shared/topbar-promo.html
 
 
 
