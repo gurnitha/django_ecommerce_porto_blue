@@ -1,4 +1,4 @@
-
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@
 	<meta name="author" content="SW-THEMES">
 		
 	<!-- Favicon -->
-	<link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="{% static 'assets/images/icons/favicon.ico' %}">
 	
 	
 	<script type="text/javascript">
@@ -22,19 +22,19 @@
 		};
 		(function(d) {
 			var wf = d.createElement('script'), s = d.scripts[0];
-			wf.src = 'assets/js/webfont.js';
+			wf.src = '{% static 'assets/js/webfont.js' %}';
 			wf.async = true;
 			s.parentNode.insertBefore(wf, s);
 		})(document);
 	</script>
 
 	<!-- Plugins CSS File -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
 
 	<!-- Main CSS File -->
-	<link rel="stylesheet" href="assets/css/style.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/simple-line-icons/css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="{% static 'assets/css/style.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendor/fontawesome-free/css/all.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendor/simple-line-icons/css/simple-line-icons.min.css' %}">
 </head>
 <body>
 	<div class="page-wrapper">
@@ -53,11 +53,11 @@
 				<div class="container">
 					<div class="header-left">
 						<div class="header-dropdown">
-							<a href="#" class="pl-0"><img src="assets/images/flags/en.png" alt="England flag">ENG</a>
+							<a href="#" class="pl-0"><img src="{% static 'assets/images/flags/en.png' %}" alt="England flag">ENG</a>
 							<div class="header-menu">
 								<ul>
-									<li><a href="#"><img src="assets/images/flags/en.png" alt="England flag">ENG</a></li>
-									<li><a href="#"><img src="assets/images/flags/fr.png" alt="France flag">FRA</a></li>
+									<li><a href="#"><img src="{% static 'assets/images/flags/en.png' %}" alt="England flag">ENG</a></li>
+									<li><a href="#"><img src="{% static 'assets/images/flags/fr.png' %}" alt="France flag">FRA</a></li>
 								</ul>
 							</div><!-- End .header-menu -->
 						</div><!-- End .header-dropown -->
@@ -107,7 +107,7 @@
 							<i class="icon-menu"></i>
 						</button>
 						<a href="index.html" class="logo">
-							<img src="assets/images/logo.png" alt="Porto Logo">
+							<img src="{% static 'assets/images/logo.png' %}" alt="Porto Logo">
 						</a>
 					</div><!-- End .header-left -->
 
@@ -181,7 +181,7 @@
 												
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="assets/images/products/cart/product-1.jpg" alt="product" width="80" height="80">
+													<img src="{% static 'assets/images/products/cart/product-1.jpg' %}" alt="product" width="80" height="80">
 												</a>
 												<a href="#" class="btn-remove icon-cancel" title="Remove Product"></a>
 											</figure>
@@ -201,7 +201,7 @@
 											
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="assets/images/products/cart/product-2.jpg" alt="product" width="80" height="80">
+													<img src="{% static 'assets/images/products/cart/product-2.jpg' %}" alt="product" width="80" height="80">
 												</a>
 												<a href="#" class="btn-remove icon-cancel" title="Remove Product"></a>
 											</figure>
@@ -264,7 +264,7 @@
 							'nav': false
 						}">
 							<div class="home-slide home-slide1 banner banner-md-vw banner-sm-vw">
-								<img class="owl-lazy slide-bg" src="assets/images/lazy.png" data-src="assets/images/slider/slide-1.png" alt="slider image">
+								<img class="owl-lazy slide-bg" src="{% static 'assets/images/lazy.png' %}" data-src="{% static 'assets/images/slider/slide-1.png' %}" alt="slider image">
 								<div class="banner-layer banner-layer-middle">
 									<h4 class="text-white pb-4 mb-0">Find the Boundaries. Push Through!</h4>
 									<h2 class="text-white mb-0">Summer Sale</h2>
@@ -275,7 +275,7 @@
 							</div><!-- End .home-slide -->
 
 							<div class="home-slide home-slide2 banner banner-md-vw banner-sm-vw">
-								<img class="owl-lazy slide-bg" src="assets/images/lazy.png" data-src="assets/images/slider/slide-2.jpg" alt="slider image">
+								<img class="owl-lazy slide-bg" src="{% static 'assets/images/lazy.png' %}" data-src="{% static 'assets/images/slider/slide-2.jpg' %}" alt="slider image">
 								<div class="banner-layer banner-layer-middle text-uppercase">
 									<h4 class="m-b-2">Over 200 products with discounts</h4>
 									<h2 class="m-b-3">Great Deals</h2>
@@ -285,7 +285,7 @@
 							</div><!-- End .home-slide -->
 
 							<div class="home-slide home-slide3 banner banner-md-vw banner-sm-vw">
-								<img class="owl-lazy slide-bg" data-src="assets/images/slider/slide-3.jpg"></img>
+								<img class="owl-lazy slide-bg" data-src="{% static 'assets/images/slider/slide-3.jpg' %}"></img>
 								<div class="banner-layer banner-layer-middle text-uppercase">
 									<h4 class="m-b-2">Up to 70% off</h4>
 									<h2 class="m-b-3">New Arrivals</h2>
@@ -310,7 +310,7 @@
 						}">
 							<div class="banner banner1 banner-hover-shadow mb-2">
 								<figure>
-									<img src="assets/images/banners/banner-1.jpg" alt="banner">
+									<img src="{% static 'assets/images/banners/banner-1.jpg' %}" alt="banner">
 								</figure>
 								<div class="banner-layer banner-layer-middle">
 									<h3 class="m-b-2">Porto Watches</h3>
@@ -320,7 +320,7 @@
 							</div><!-- End .banner -->
 							<div class="banner banner2 text-uppercase banner-hover-shadow mb-2">
 								<figure>
-									<img src="assets/images/banners/banner-2.jpg" alt="banner">
+									<img src="{% static 'assets/images/banners/banner-2.jpg' %}" alt="banner">
 								</figure>
 								<div class="banner-layer banner-layer-middle text-center pt-2">
 									<h3 class="m-b-1 ls-n-20">Deal Promos</h3>
@@ -330,7 +330,7 @@
 							</div><!-- End .banner -->
 							<div class="banner banner3 banner-hover-shadow mb-2">
 								<figure>
-									<img src="assets/images/banners/banner-3.jpg" alt="banner">
+									<img src="{% static 'assets/images/banners/banner-3.jpg' %}" alt="banner">
 								</figure>
 								<div class="banner-layer banner-layer-middle text-right">
 									<h3 class="m-b-2">Handbags</h3>
@@ -346,7 +346,7 @@
 							<div class="product-default inner-quickview inner-icon">
 								<figure>
 									<a href="product.html">
-										<img src="assets/images/products/home-featured-1.jpg">
+										<img src="{% static 'assets/images/products/home-featured-1.jpg' %}">
 									</a>
 									<div class="label-group">
 										<div class="product-label label-hot">HOT</div>
@@ -380,7 +380,7 @@
 							<div class="product-default inner-quickview inner-icon">
 								<figure>
 									<a href="product.html">
-										<img src="assets/images/products/home-featured-2.jpg">
+										<img src="{% static 'assets/images/products/home-featured-2.jpg' %}">
 									</a>
 									<div class="label-group">
 										<div class="product-label label-hot">HOT</div>
@@ -415,7 +415,7 @@
 							<div class="product-default inner-quickview inner-icon">
 								<figure>
 									<a href="product.html">
-										<img src="assets/images/products/home-featured-3.jpg">
+										<img src="{% static 'assets/images/products/home-featured-3.jpg' %}">
 									</a>
 									<div class="btn-icon-group">
 										<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i></button>
@@ -446,7 +446,7 @@
 							<div class="product-default inner-quickview inner-icon">
 								<figure>
 									<a href="product.html">
-										<img src="assets/images/products/home-featured-4.jpg">
+										<img src="{% static 'assets/images/products/home-featured-4.jpg' %}">
 									</a>
 									<div class="label-group">
 										<div class="product-label label-hot">HOT</div>
@@ -481,7 +481,7 @@
 							<div class="product-default inner-quickview inner-icon">
 								<figure>
 									<a href="product.html">
-										<img src="assets/images/products/home-featured-5.jpg">
+										<img src="{% static 'assets/images/products/home-featured-5.jpg' %}">
 									</a>
 									<div class="label-group">
 										<div class="product-label label-hot">HOT</div>
@@ -521,12 +521,12 @@
 								}
 							}
 						}">
-							<img src="assets/images/brands/brand1.png" width="140" height="60" alt="brand">
-							<img src="assets/images/brands/brand2.png" width="140" height="60" alt="brand">
-							<img src="assets/images/brands/brand3.png" width="140" height="60" alt="brand">
-							<img src="assets/images/brands/brand4.png" width="140" height="60" alt="brand">
-							<img src="assets/images/brands/brand5.png" width="140" height="60" alt="brand">
-							<img src="assets/images/brands/brand6.png" width="140" height="60" alt="brand">
+							<img src="{% static 'assets/images/brands/brand1.png' %}" width="140" height="60" alt="brand">
+							<img src="{% static 'assets/images/brands/brand2.png' %}" width="140" height="60" alt="brand">
+							<img src="{% static 'assets/images/brands/brand3.png' %}" width="140" height="60" alt="brand">
+							<img src="{% static 'assets/images/brands/brand4.png' %}" width="140" height="60" alt="brand">
+							<img src="{% static 'assets/images/brands/brand5.png' %}" width="140" height="60" alt="brand">
+							<img src="{% static 'assets/images/brands/brand6.png' %}" width="140" height="60" alt="brand">
 						</div><!-- End .brands-slider -->
 
 						<div class="row products-widgets">
@@ -537,7 +537,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/home-featured-3.jpg">
+												<img src="{% static 'assets/images/products/home-featured-3.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -558,7 +558,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/home-featured-4.jpg">
+												<img src="{% static 'assets/images/products/home-featured-4.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -579,7 +579,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/small/product-1.jpg">
+												<img src="{% static 'assets/images/products/small/product-1.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -607,7 +607,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/home-featured-1.jpg">
+												<img src="{% static 'assets/images/products/home-featured-1.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -628,7 +628,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/home-featured-2.jpg">
+												<img src="{% static 'assets/images/products/home-featured-2.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -649,7 +649,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/home-featured-5.jpg">
+												<img src="{% static 'assets/images/products/home-featured-5.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -677,7 +677,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/home-featured-4.jpg">
+												<img src="{% static 'assets/images/products/home-featured-4.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -698,7 +698,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/small/product-1.jpg">
+												<img src="{% static 'assets/images/products/small/product-1.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -719,7 +719,7 @@
 									<div class="product-default left-details product-widget mb-3">
 										<figure>
 											<a href="product.html">
-												<img src="assets/images/products/home-featured-3.jpg">
+												<img src="{% static 'assets/images/products/home-featured-3.jpg' %}">
 											</a>
 										</figure>
 										<div class="product-details">
@@ -827,7 +827,7 @@
 													</ul>
 												</div>
 												<div class="col-lg-4 p-0">
-													<img src="assets/images/menu-banner.jpg" alt="Menu banner">
+													<img src="{% static 'assets/images/menu-banner.jpg' %}" alt="Menu banner">
 												</div>
 											</div>
 										</div><!-- End .megamenu -->
@@ -867,7 +867,7 @@
 												</div><!-- End .col-lg-4 -->
 		
 												<div class="col-lg-3 p-0">
-													<img src="assets/images/menu-bg.png" alt="Menu banner" class="product-promo">
+													<img src="{% static 'assets/images/menu-bg.png' %}" alt="Menu banner" class="product-promo">
 												</div><!-- End .col-lg-4 -->
 											</div><!-- End .row -->
 										</div><!-- End .megamenu -->
@@ -956,7 +956,7 @@
 								<div class="testimonial">
 									<div class="testimonial-owner">
 										<figure>
-											<img src="assets/images/clients/client-1.jpg" alt="client">
+											<img src="{% static 'assets/images/clients/client-1.jpg' %}" alt="client">
 										</figure>
 
 										<div>
@@ -973,7 +973,7 @@
 								<div class="testimonial">
 									<div class="testimonial-owner">
 										<figure>
-											<img src="assets/images/clients/client-2.jpg" alt="client">
+											<img src="{% static 'assets/images/clients/client-2.jpg' %}" alt="client">
 										</figure>
 
 										<div>
@@ -990,7 +990,7 @@
 								<div class="testimonial">
 									<div class="testimonial-owner">
 										<figure>
-											<img src="assets/images/clients/client-3.jpg" alt="client">
+											<img src="{% static 'assets/images/clients/client-3.jpg' %}" alt="client">
 										</figure>
 
 										<div>
@@ -1013,7 +1013,7 @@
 								<article class="post">
                                     <div class="post-media">
                                         <a href="single.html">
-                                            <img src="assets/images/blog/home/post-1.jpg" alt="Post">
+                                            <img src="{% static 'assets/images/blog/home/post-1.jpg' %}" alt="Post">
                                         </a>
 										<div class="post-date">
 											<span class="day">29</span>
@@ -1037,7 +1037,7 @@
 								<article class="post">
 									<div class="post-media">
 										<a href="single.html">
-											<img src="assets/images/blog/home/post-2.jpg" alt="Post">
+											<img src="{% static 'assets/images/blog/home/post-2.jpg' %}" alt="Post">
 										</a>
 										<div class="post-date">
 											<span class="day">29</span>
@@ -1061,7 +1061,7 @@
 								<article class="post">
 									<div class="post-media">
 										<a href="single.html">
-											<img src="assets/images/blog/home/post-3.jpg" alt="Post">
+											<img src="{% static 'assets/images/blog/home/post-3.jpg' %}" alt="Post">
 										</a>
 										<div class="post-date">
 											<span class="day">29</span>
@@ -1095,7 +1095,7 @@
 						<div class="col-lg-3 col-sm-6 pb-5 pb-sm-0">
 							<div class="widget">
 								<h4 class="widget-title">About Us</h4>
-								<img src="assets/images/logo-footer.png" alt="Logo" class="m-b-3">
+								<img src="{% static 'assets/images/logo-footer.png' %}" alt="Logo" class="m-b-3">
 								<p class="m-b-4 pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna, et dapibus lacus. Duis nec vestibulum magna, et dapibus lacus.</p>
 								<a href="#" class="read-more text-white">read more...</a>
 							</div><!-- End .widget -->
@@ -1174,7 +1174,7 @@
 				<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
 					<p class="footer-copyright py-3 pr-4 mb-0">© Porto eCommerce. 2020. All Rights Reserved</p>
 
-					<img src="assets/images/payments.png" alt="payment methods" class="footer-payments py-3">
+					<img src="{% static 'assets/images/payments.png' %}" alt="payment methods" class="footer-payments py-3">
 				</div>
 			</div><!-- End .container -->
 		</footer><!-- End .footer -->
@@ -1288,9 +1288,9 @@
 		</div><!-- End .mobile-menu-wrapper -->
 	</div><!-- End .mobile-menu-container -->
 
-	<div class="newsletter-popup mfp-hide bg-img" id="newsletter-popup-form" style="background: #f1f1f1 no-repeat center/cover url(assets/images/newsletter_popup_bg.jpg)">
+	<div class="newsletter-popup mfp-hide bg-img" id="newsletter-popup-form" style="background: #f1f1f1 no-repeat center/cover url({% static 'assets/images/newsletter_popup_bg.jpg' %})">
 		<div class="newsletter-popup-content">
-			<img src="assets/images/logo-black.png" alt="Logo" class="logo-newsletter">
+			<img src="{% static 'assets/images/logo-black.png' %}" alt="Logo" class="logo-newsletter">
 			<h2>BE THE FIRST TO KNOW</h2>
 			<p>Subscribe to the Porto eCommerce newsletter to receive timely updates from your favorite products.</p>
 			<form action="#">
@@ -1329,11 +1329,11 @@
 	<a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 
 	<!-- Plugins JS File -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/js/plugins.min.js"></script>
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+	<script src="{% static 'assets/js/plugins.min.js' %}"></script>
 
 	<!-- Main JS File -->
-	<script src="assets/js/main.min.js"></script>
+	<script src="{% static 'assets/js/main.min.js' %}"></script>
 </body>
 </html>

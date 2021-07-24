@@ -124,7 +124,13 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   config/urls.py
 
 
+#### 5.4 Adding and loading static files
 
+        modified:   .gitignore
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
+        modified:   templates/main/index.html 
 
 
 
