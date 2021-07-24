@@ -172,6 +172,16 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   config/settings.py
 
 
+#### 5.7 Creating product list template (Views, Template, Urls)
+
+        modified:   README.md
+        modified:   apps/main/urls.py
+        new file:   apps/product/urls.py
+        modified:   apps/product/views.py
+        modified:   config/urls.py
+        modified:   templates/base.html
+        new file:   templates/product/product-list.html
+        modified:   templates/shared/header-top.html
 
 
 

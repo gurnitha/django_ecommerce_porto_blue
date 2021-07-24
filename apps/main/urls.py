@@ -7,7 +7,7 @@ from django.urls import path
 from apps.main.views import home 
 
 # Appp name
-app_name = "mani"
+app_name = "main"
 
 urlpatterns = [
     path('', home, name="home"),
