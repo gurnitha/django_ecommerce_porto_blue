@@ -184,6 +184,28 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   templates/shared/header-top.html
 
 
+#### 5.8 Adding category-list page and sagmenting the product-list and category-list pages
+
+        modified:   README.md
+        modified:   apps/product/urls.py
+        modified:   apps/product/views.py
+        modified:   templates/base.html
+        new file:   templates/product/category-list.html
+        new file:   templates/product/inc/benner-top-promo.html
+        new file:   templates/product/inc/breadcrumb.html
+        new file:   templates/product/inc/content.html
+        new file:   templates/product/inc/nav-pagination.html
+        new file:   templates/product/inc/nav-toolbox.html
+        new file:   templates/product/inc/side-brand.html
+        new file:   templates/product/inc/side-category.html
+        new file:   templates/product/inc/side-color.html
+        new file:   templates/product/inc/side-custom-widget.html
+        new file:   templates/product/inc/side-featured.html
+        new file:   templates/product/inc/side-price.html
+        new file:   templates/product/inc/side-size.html
+        modified:   templates/product/product-list.html
+        modified:   templates/shared/header-top.html
+
 
 
 

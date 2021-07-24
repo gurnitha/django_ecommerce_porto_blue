@@ -7,6 +7,10 @@ from django.shortcuts import render
 
 # Create your views here.
 
-# Home page views
+# Product page views
 def product_list(request):
 	return render(request, 'product/product-list.html')
+
+# Category page views
+def category_list(request):
+	return render(request, 'product/category-list.html')

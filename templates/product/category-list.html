@@ -1,0 +1,260 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page-title %}{% endblock page-title %}
+
+{% block content %}
+<!-- Main -->
+<main class="main">
+
+	<!-- Benner-top-promo -->
+	{% include "./inc/benner-top-promo.html" %}
+	<!-- End Benner-top-promo -->
+
+	<!-- Container Aside and Main Content -->
+	<div class="container">
+
+		<!-- Breadcrumb -->
+		{% include "./inc/breadcrumb.html" %}
+		<!-- End Breadcrumb -->
+
+		<div class="row">
+			<div class="col-lg-9 order-lg-1">
+				<!-- Nav-toolbox -->
+				{% include "./inc/nav-toolbox.html" %}
+				<!-- End Nav-toolbox -->
+
+				<div class="row pb-4">
+					<div class="col-12 product-default left-details product-list mb-4">
+						<figure>
+							<a href="product.html">
+								<img src="{% static 'assets/images/products/product-1.jpg' %}">
+							</a>
+						</figure>
+						<div class="product-details">
+							<div class="category-list">
+								<a href="category.html" class="product-category">category</a>
+							</div>
+							<h2 class="product-title">
+								<a href="product.html">Product Short Name</a>
+							</h2>
+							<div class="ratings-container">
+								<div class="product-ratings">
+									<span class="ratings" style="width:100%"></span><!-- End .ratings -->
+									<span class="tooltiptext tooltip-top"></span>
+								</div><!-- End .product-ratings -->
+							</div><!-- End .product-container -->
+							<p class="product-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							<div class="price-box">
+								<span class="product-price">$15.00</span>
+							</div><!-- End .price-box -->
+							<div class="product-action">
+								<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO CART</button>
+								<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a> 
+							</div>
+						</div><!-- End .product-details -->
+					</div>
+					<div class="col-12 product-default left-details product-list mb-4">
+						<figure>
+							<a href="product.html">
+								<img src="{% static 'assets/images/products/product-2.jpg' %}">
+							</a>
+						</figure>
+						<div class="product-details">
+							<div class="category-list">
+								<a href="category.html" class="product-category">category</a>
+							</div>
+							<h2 class="product-title">
+								<a href="product.html">Product Short Name</a>
+							</h2>
+							<div class="ratings-container">
+								<div class="product-ratings">
+									<span class="ratings" style="width:100%"></span><!-- End .ratings -->
+									<span class="tooltiptext tooltip-top"></span>
+								</div><!-- End .product-ratings -->
+							</div><!-- End .product-container -->
+							<p class="product-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							<div class="price-box">
+								<span class="product-price">$15.00</span>
+							</div><!-- End .price-box -->
+							<div class="product-action">
+								<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO CART</button>
+								<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a> 
+							</div>
+						</div><!-- End .product-details -->
+					</div>
+					<div class="col-12 product-default left-details product-list mb-4">
+						<figure>
+							<a href="product.html">
+								<img src="{% static 'assets/images/products/product-3.jpg' %}">
+							</a>
+						</figure>
+						<div class="product-details">
+							<div class="category-list">
+								<a href="category.html" class="product-category">category</a>
+							</div>
+							<h2 class="product-title">
+								<a href="product.html">Product Short Name</a>
+							</h2>
+							<div class="ratings-container">
+								<div class="product-ratings">
+									<span class="ratings" style="width:100%"></span><!-- End .ratings -->
+									<span class="tooltiptext tooltip-top"></span>
+								</div><!-- End .product-ratings -->
+							</div><!-- End .product-container -->
+							<p class="product-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							<div class="price-box">
+								<span class="product-price">$15.00</span>
+							</div><!-- End .price-box -->
+							<div class="product-action">
+								<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO CART</button>
+								<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a> 
+							</div>
+						</div><!-- End .product-details -->
+					</div>
+					<div class="col-12 product-default left-details product-list mb-4">
+						<figure>
+							<a href="product.html">
+								<img src="{% static 'assets/images/products/product-4.jpg' %}">
+							</a>
+						</figure>
+						<div class="product-details">
+							<div class="category-list">
+								<a href="category.html" class="product-category">category</a>
+							</div>
+							<h2 class="product-title">
+								<a href="product.html">Product Short Name</a>
+							</h2>
+							<div class="ratings-container">
+								<div class="product-ratings">
+									<span class="ratings" style="width:100%"></span><!-- End .ratings -->
+									<span class="tooltiptext tooltip-top"></span>
+								</div><!-- End .product-ratings -->
+							</div><!-- End .product-container -->
+							<p class="product-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							<div class="price-box">
+								<span class="product-price">$15.00</span>
+							</div><!-- End .price-box -->
+							<div class="product-action">
+								<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO CART</button>
+								<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a> 
+							</div>
+						</div><!-- End .product-details -->
+					</div>
+					<div class="col-12 product-default left-details product-list mb-4">
+						<figure>
+							<a href="product.html">
+								<img src="{% static 'assets/images/products/product-5.jpg' %}">
+							</a>
+						</figure>
+						<div class="product-details">
+							<div class="category-list">
+								<a href="category.html" class="product-category">category</a>
+							</div>
+							<h2 class="product-title">
+								<a href="product.html">Product Short Name</a>
+							</h2>
+							<div class="ratings-container">
+								<div class="product-ratings">
+									<span class="ratings" style="width:100%"></span><!-- End .ratings -->
+									<span class="tooltiptext tooltip-top"></span>
+								</div><!-- End .product-ratings -->
+							</div><!-- End .product-container -->
+							<p class="product-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							<div class="price-box">
+								<span class="product-price">$15.00</span>
+							</div><!-- End .price-box -->
+							<div class="product-action">
+								<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO CART</button>
+								<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a> 
+							</div>
+						</div><!-- End .product-details -->
+					</div>
+					<div class="col-12 product-default left-details product-list mb-4">
+						<figure>
+							<a href="product.html">
+								<img src="{% static 'assets/images/products/product-6.jpg' %}">
+							</a>
+						</figure>
+						<div class="product-details">
+							<div class="category-list">
+								<a href="category.html" class="product-category">category</a>
+							</div>
+							<h2 class="product-title">
+								<a href="product.html">Product Short Name</a>
+							</h2>
+							<div class="ratings-container">
+								<div class="product-ratings">
+									<span class="ratings" style="width:100%"></span><!-- End .ratings -->
+									<span class="tooltiptext tooltip-top"></span>
+								</div><!-- End .product-ratings -->
+							</div><!-- End .product-container -->
+							<p class="product-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							<div class="price-box">
+								<span class="product-price">$15.00</span>
+							</div><!-- End .price-box -->
+							<div class="product-action">
+								<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO CART</button>
+								<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a> 
+							</div>
+						</div><!-- End .product-details -->
+					</div>
+				</div>
+
+				<!-- Nav-pagination -->
+				{% include "./inc/nav-pagination.html" %}
+				<!-- End Nav-pagination -->
+			</div>
+			<!-- End .col-lg-9 -->
+
+			<!-- Sidebar -->
+			<div class="sidebar-overlay"></div>
+			<div class="sidebar-toggle"><i class="fas fa-sliders-h"></i></div>
+			<aside class="sidebar-shop col-lg-3 order-lg-first mobile-sidebar">
+				<div class="sidebar-wrapper">
+
+					<!-- Side-category -->
+					{% include "./inc/side-category.html" %}
+					<!-- End Side-category -->
+
+					<!-- Side-price -->
+					{% include "./inc/side-price.html" %}
+					<!-- End Side-price -->
+
+					<!-- Side-size -->
+					{% include "./inc/side-size.html" %}
+					<!-- End Side-size -->
+
+					<!-- Side-brand -->
+					{% include "./inc/side-brand.html" %}
+					<!-- Side-brand -->
+
+					<!-- Side-color -->
+					{% include "./inc/side-color.html" %}
+					<!-- End Side-color -->
+
+					<!-- Side-featured -->
+					{% include "./inc/side-featured.html" %}
+					<!-- End Side-featured -->
+					
+					<!-- Side-custome-widget -->
+					{% include "./inc/side-custom-widget.html" %}
+					<!-- Side-custome-widget -->
+
+				</div><!-- End .sidebar-wrapper -->
+			</aside>
+			<!-- End Sidebar -->
+		</div>
+		<!-- End .row -->
+	</div>
+	<!-- End Container Aside and Main Content -->
+
+	<div class="mb-3"></div>
+</main>
+<!-- End Main -->
+{% endblock content %}
