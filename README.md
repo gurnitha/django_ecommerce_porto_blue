@@ -99,9 +99,15 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   README.md
 
 
+### -------------------------------------------
+### 5. TEMPLATE, STATIC FILES, VIEWS AND URLS
+### -------------------------------------------
 
 
+#### 5.1 Activating template engine
 
+        modified:   README.md
+        modified:   config/settings.py
 
 
 
