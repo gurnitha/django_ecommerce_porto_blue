@@ -41,7 +41,18 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         new file:   manage.py
 
 
+#### 2.2 Create django app 'apps/main'
 
+        (venv3932) λ mkdir apps\main
+        (venv3932) λ python manage.py startapp main apps/main
+
+        new file:   apps/main/__init__.py
+        new file:   apps/main/admin.py
+        new file:   apps/main/apps.py
+        new file:   apps/main/migrations/__init__.py
+        new file:   apps/main/models.py
+        new file:   apps/main/tests.py
+        new file:   apps/main/views.py
 
 
 
