@@ -221,8 +221,18 @@ https://github.com/gurnitha/django_ecommerce_porto_blue
         modified:   apps/product/models.py
 
 
+#### 6.2 Add and Read CATEGORY-BASED PRODUCTS
 
-
+        modified:   README.md
+        modified:   apps/product/models.py
+        modified:   apps/product/urls.py
+        modified:   apps/product/views.py
+        modified:   templates/base.html
+        modified:   templates/product/inc/content.html
+        modified:   templates/product/inc/side-category.html
+        modified:   templates/product/product-list.html
+        modified:   templates/shared/head.html
+        modified:   templates/shared/header-top.html
 
 
 
